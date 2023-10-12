@@ -508,6 +508,7 @@ html, body {
     }
     .container_banner .shadow_vertical .area_content .content_rightside {
         width: 350px;
+        height: 350px;
     }
     .section_clients .area_cards_clients {
         grid-template-columns: repeat(auto-fill, 100%);
@@ -545,5 +546,20 @@ html, body {
     }
     .section_footer footer .left_side {
         margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 320px) {
+    .container_banner .shadow_vertical .area_content .content_leftside .area_btn_cta a {
+        font-size: 15px;
+    }
+    .section_clients .title_section .text_title h1, .section_plans .shadow .title_section .text_title h1 {
+        font-size: 20px;
+    }
+    .section_clients .title_section .icon_title i, .section_plans .shadow .title_section .icon_title i {
+        font-size: 15px;
+    }
+    .section_plans .shadow .area_cards_plans .card_plan .card_middle .discount .right {
+        font-size: 12px;
     }
 }
